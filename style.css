@@ -41,7 +41,7 @@
 #hover, #hover1, #hover2, #hover3{
     position: relative;
     animation-name: moveup;
-    animation-duration: 2s;
+    animation-duration: 1s;
     animation-play-state: paused;
     animation-fill-mode: forwards;
 }
