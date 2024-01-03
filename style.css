@@ -1,0 +1,83 @@
+@keyframes moveup {
+    0%{
+        opacity: 0;
+        bottom: 0px;
+    }
+    55%{
+        opacity: 0.4;
+    }
+    100%{
+        opacity: 1;
+        bottom: 20px;
+    }
+    
+}
+
+@keyframes movebar {
+    0%{
+        width: 0px;
+    }
+    100%{
+        width:150px;
+    }
+}
+
+
+#header{
+    /*height: 700px;*/
+    background-image: url("");
+    width: 100%;
+    background-color: gainsboro;
+    background-repeat: no-repeat;
+}
+
+#welcome{
+    position: relative;
+    animation-name: moveup;
+    animation-duration: 2s;
+    animation-fill-mode: forwards;
+}
+
+#hover, #hover1, #hover2, #hover3{
+    position: relative;
+    animation-name: moveup;
+    animation-duration: 2s;
+    animation-play-state: paused;
+    animation-fill-mode: forwards;
+}
+
+#bar2, #bar3{
+    position: relative;
+    animation-name: movebar;
+    animation-duration: 2s;
+    animation-play-state: paused;
+    animation-fill-mode: forwards;
+}
+
+#bar1{
+    position: relative;
+    animation-name: movebar;
+    animation-duration: 2s;
+    animation-fill-mode: forwards;
+}
+
+#headerx{
+    position: relative;
+    height: 70%;
+    top:30%;
+}
+
+#welcome{
+    font-family: "Archivo Black", Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 60px;
+}
+
+#icon{
+    position: relative;
+    top: 55%;
+    left: 45%;
+    animation-name: moveup;
+    animation-duration: 2s;
+    animation-fill-mode: forwards;
+}
