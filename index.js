@@ -84,7 +84,6 @@ document.addEventListener('DOMContentLoaded', function() {
 
 function moveup(x){
     x.style.animationPlayState= 'running'; 
-    
 }
 
 function movebar(y){
