@@ -42,24 +42,24 @@ document.addEventListener('DOMContentLoaded', function() {
     }
 
     else if(window.innerWidth <576){
-        el.addEventListener('scroll', () => {
+        el.addEventListener('touchend', () => {
             moveup(el);
         });
-        el1.addEventListener('scroll', () => {
+        el1.addEventListener('touchend', () => {
             moveup(el1);
         });
-        el2.addEventListener('scroll', () => {
+        el2.addEventListener('touchend', () => {
             moveup(el2);
         });
-        el3.addEventListener('scroll', () => {
+        el3.addEventListener('touchend', () => {
             moveup(el3);
         });
 
-        proj.addEventListener('scroll', () => {
+        proj.addEventListener('touchend', () => {
             movebar(bar2);
         });
 
-        skill.addEventListener('scroll', () => {
+        skill.addEventListener('touchend', () => {
             movebar(bar3);
         });
     }
