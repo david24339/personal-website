@@ -42,24 +42,24 @@ document.addEventListener('DOMContentLoaded', function() {
     }
 
     else if(window.innerWidth <576){
-        el.addEventListener('touchmove', () => {
+        el.addEventListener('touchstart', () => {
             moveup(el);
         });
-        el1.addEventListener('touchmove', () => {
+        el1.addEventListener('touchstart', () => {
             moveup(el1);
         });
-        el2.addEventListener('touchmove', () => {
+        el2.addEventListener('touchstart', () => {
             moveup(el2);
         });
-        el3.addEventListener('touchmove', () => {
+        el3.addEventListener('touchstart', () => {
             moveup(el3);
         });
 
-        proj.addEventListener('touchmove', () => {
+        proj.addEventListener('touchstart', () => {
             movebar(bar2);
         });
 
-        skill.addEventListener('touchmove', () => {
+        skill.addEventListener('touchstart', () => {
             movebar(bar3);
         });
     }
