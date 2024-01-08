@@ -23,7 +23,7 @@
 }
 
 
-#header{
+#header, #about{
     /*height: 700px;*/
     background-image: url("");
     width: 100%;
@@ -80,4 +80,14 @@
     animation-name: moveup;
     animation-duration: 2s;
     animation-fill-mode: forwards;
+}
+
+#about-title{
+
+}
+
+#about-x{
+    font-family: "Archivo Black", Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 38px;
 }
